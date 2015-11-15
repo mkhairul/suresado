@@ -1,0 +1,15 @@
+.learn-more{ margin-left: 20px; margin-right: 5px; }
+.product-properties p strong{
+    color: #FF3399;
+}
+
+.main-product-image{
+    position: absolute;
+    width: 170%;
+    height: 100%;
+}
+.main-desc{
+    padding-left: 50px; 
+}
+
+.emphasis-title{ margin-bottom: 5px; }
