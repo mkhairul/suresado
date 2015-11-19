@@ -12,4 +12,5 @@
     padding-left: 50px; 
 }
 
-.emphasis-title{ margin-bottom: 5px; }
+.emphasis-title{ margin-bottom: 5px; padding-left: 160px; }
+.emphasis-title h1{ text-align: left; font-size: 2em; line-height: 3.5em; }
