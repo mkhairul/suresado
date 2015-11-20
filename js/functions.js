@@ -239,10 +239,12 @@ var SEMICOLON = SEMICOLON || {};
 								element.css({ position: 'relative', top: '0', width: 'auto', marginTop: '0', paddingTop: '60px', paddingBottom: '60px' }).addClass('clearfix');
 							}
 						} else {
-							element.css({ position: 'absolute', top: '50%', width: '100%', paddingTop: '0', paddingBottom: '0', marginTop: -(verticalMiddleH/2)+'px' });
+							//element.css({ position: 'absolute', top: '50%', width: '100%', paddingTop: '0', paddingBottom: '0', marginTop: -(verticalMiddleH/2)+'px' });
+                            element.css({ position: 'absolute', top: '0', width: '100%', paddingTop: '0', paddingBottom: '0' });
 						}
 					} else {
-						element.css({ position: 'absolute', top: '50%', width: '100%', paddingTop: '0', paddingBottom: '0', marginTop: -(verticalMiddleH/2)+'px' });
+						//element.css({ position: 'absolute', top: '80px', width: '100%', paddingTop: '0', paddingBottom: '0', marginTop: -(verticalMiddleH/2)+'px' });
+                        element.css({ position: 'absolute', top: '0', width: '100%', paddingTop: '0', paddingBottom: '0'});
 					}
 				});
 			}
@@ -301,7 +303,7 @@ var SEMICOLON = SEMICOLON || {};
 					if( $body.hasClass('device-xs') || $body.hasClass('device-xxs') ) {
 						if( !element.hasClass('force-full-screen') ){ scrHeight = 'auto'; }
 					}
-
+                    console.log(scrHeight);
 					element.css('height', scrHeight);
 					if( element.attr('id') == 'slider' && !element.hasClass('canvas-slider-grid') ) { if( element.has('.swiper-slide') ) { element.find('.swiper-slide').css('height', scrHeight); } }
 				});

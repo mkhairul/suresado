@@ -4,13 +4,33 @@
 }
 
 .main-product-image{
+    /*
     position: absolute;
     width: 150%;
     height: 100%;
+    */
 }
 .main-desc{
-    padding-left: 50px; 
+    /*padding-left: 50px; */
 }
 
+/*
 .emphasis-title{ margin-bottom: 5px; padding-left: 160px; }
-.emphasis-title h1{ text-align: left; font-size: 2em; line-height: 3.5em; }
+*/
+.product-title{ text-align: left; }
+.emphasis-title h1{ text-align: left; font-size: 3em; line-height: 3.5em; }
+.main-content{ margin-top: 50px; }
+
+@media (max-width: 768px){
+    .product-title {
+       text-align: center;
+    }
+    .main-desc{ margin-top: 10px; }
+    .emphasis-title h1, .emphasis-title{
+        vertical-align: top;
+    }
+    .emphasis-title h1 .font-body{
+        font-size: 0.9em;
+        line-height: 0.9em;
+    }
+}
