@@ -75,3 +75,33 @@
 .oc-item img{ width: 100px !important; }
 #oc-clients{ padding-left: 50px; padding-right: 50px; }
 
+.product{ width: 100%; }
+.product h2{ height: 93px; line-height: 93px; vertical-align: middle; }
+.product img{ height: 95px; }
+.product td{ padding-bottom: 25px; }
+.product tr td:first-child{
+  text-align: right;
+  width: 80%;
+  vertical-align: middle;
+}
+
+.left{ text-align: left; }
+.entry-content ol{ margin-left: 15px; }
+.entry-content ul{ 
+  list-style: none;
+  margin-left: 35px; 
+}
+.entry-content ul li{ 
+  background: url('images/fitbella/list-bullet.png') left center no-repeat;
+  margin-bottom: 10px;
+  line-height: 24px; vertical-align: middle; 
+  padding-left: 30px;
+}
+.entry-content table{ width: 100%; }
+.tips-content{
+  font-size: 125%;
+}
+
+.fitbella-color{
+  color: #ff00ff;
+}
