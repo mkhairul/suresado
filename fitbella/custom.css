@@ -1,0 +1,74 @@
+#logo2{
+  float: left;
+  margin-left: -45px;
+}
+#logo2 img, #logo img{ height: 65px; }
+.social-header{
+  padding: 2px 10px;
+  background-color: #ff00ff;
+  margin-bottom: 4px;
+}
+.social-header > div{ margin-bottom: 0; }
+#header, #header-wrap{ height: 95px; }
+
+.strike{
+  display: inline-block;
+  /*
+  color: red;
+  text-decoration:line-through;
+  */
+  position: relative;
+}
+.strike span::before, .strike span::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.strike span::before {
+    border-bottom: 1px solid red;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+}
+.strike span{ color: black; }
+
+.fitbella-bg{
+	background-image: url(images/slider/slide1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 75% 0%;
+  position: relative;
+}
+
+.fitbella-bg .logo-content{
+  width: 50%;
+  height: 60%;
+  overflow: none;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.fitbella-bg .logo-content img{ margin: 0 auto; z-index: 9; }
+.fitbella-bg .logo-content img.products{ margin-top: -30px; }
+
+.suresado-bg{
+	background-image: url(images/fitbella/suresado-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 75% 0%;
+}
+
+.suresado-bg .logo-content{
+  width: 50%;
+  height: 80%;
+  overflow: none;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.suresado-bg .logo-content img{ margin: 0 auto; z-index: 9; }
+.suresado-bg .logo-content img.products{ margin-top: -50px; }
+
