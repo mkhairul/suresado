@@ -72,3 +72,6 @@
 .suresado-bg .logo-content img{ margin: 0 auto; z-index: 9; }
 .suresado-bg .logo-content img.products{ margin-top: -50px; }
 
+.oc-item img{ width: 100px !important; }
+#oc-clients{ padding-left: 50px; padding-right: 50px; }
+
